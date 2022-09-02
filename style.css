@@ -1,0 +1,85 @@
+@import url("http://fonts.cdnfonts.com/css/cursed-timer-ulil");
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: linear-gradient(to right top, #162f55, #14325f, #13356a, #123875, #143a7f);
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    max-width: 100%;
+    width: 1150px;
+    margin: 0 auto;
+    margin-top: 2em;
+    border-bottom: 5px solid rgb(167, 160, 160);
+    padding: 1em;
+    font-size: 30px;
+}
+
+.container{
+   display: flex;
+   grid-template-columns: repeat(2, 1fr);
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.home_guest-bg {
+    max-width: 100%;
+    width: 300px;
+    margin: 2em auto;
+    border: 3px solid #D5EED2;
+    padding: 1.5em;
+    border-radius: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.score {
+    margin-top: -20px;
+    background: black;
+    padding: 2.5rem 0.5em;
+    border-radius: 15px;
+    font-family:  "Cursed Timer ULiL";
+    font-size: 60px;
+    color: #30EB14;
+}
+.btn-score{
+    border: 1px solid #D5EED2;
+    background: #2B2E64;
+    border-radius: 7px;
+    padding: 10px;
+    font-family: inherit;
+    font-size: 20px;
+    color: #fff;
+    font-family: "Cursed Timer ULiL";
+}
+.btn-score:hover{
+    background: #0D1499;
+    cursor: pointer;
+}
+.btn-score:active {
+    background: #162F55;
+}
+.Game{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-bottom: 5em;
+}
+.game-result{
+   background: #203A62;
+   color: #D4F7EE;
+   padding: 35px 24px;
+   font-size: 30px;
+   border-radius: 15px;
+   border: 2px solid #D4F7EE;
+   cursor: pointer;
+   transition: all 1s;
+}
+ .game-result:hover{
+    transform: scale(1.1);
+    background: #0BB135;
+    color: black;
+    font-weight: bold;
+ }

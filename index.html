@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baskeball Scoreboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="app">
+    <header>
+        <h1>Basketball Scoreboard</h1>
+    </header>
+
+    <div class="container">
+        <div class="home_guest-bg">
+            <h3>HOME</h3>
+            <div>
+            <h2 class="score" id="home-Score">0</h2>
+            </div>
+                 <button class="btn-score" id="home-btn1" onclick="increaseHome1()">+1</button>
+                 <button class="btn-score" id="home-btn2" onclick="increaseHome2()">+2</button>
+                 <button class="btn-score" id="home-btn3" onclick="increaseHome3()">+3</button>
+        </div>
+        
+        <div class="home_guest-bg">
+            <h3>GUEST</h3>
+            <div>
+                <h2 class="score" id="guest-Score">0</h2>
+          </div>
+                <button class="btn-score" id="guest-btn1" onclick="increaseGuest1()">+1</button>
+                <button class="btn-score" id="guest-btn2" onclick="increaseGuest2()">+2</button>
+                <button class="btn-score" id="guest-btn3" onclick="increaseGuest3()">+3</button>
+        </div>
+    </div>
+
+    <div class="Game">
+        <button class="game-result">New Game</button>
+        <button class="game-result">End Game</button>
+    </div>
+
+    <script src="script.js"</script>
+    
+</body>
+</html>
